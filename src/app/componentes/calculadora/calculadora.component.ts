@@ -7,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './calculadora.component.scss'
 })
 export class CalculadoraComponent {
+  primeiroNumero: number = 0;
+  segundoNumero: number = 0;
+  resultado: number = 0;
 
+  calculaResultado() {
+    this.resultado = this.primeiroNumero + this.segundoNumero;
+  }
 }
