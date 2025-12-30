@@ -10,6 +10,8 @@ Para demonstrar o funcionamento da calculadora (interação entre os inputs, o e
   <img src="assets/demonstracao-calculadora.gif" alt="Demonstração da Calculadora" width="500">
 </p>
 
+Acesse a aplicação online: [Calculadora de Soma Básica](https://josecampelo.github.io/calculadora-soma-basica-angular/).
+
 ## Tecnologias e Ferramentas
 
 * **Angular 19**: Desenvolvimento utilizando o padrão de *Standalone Components*.
