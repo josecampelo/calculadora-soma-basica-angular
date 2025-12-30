@@ -1,59 +1,53 @@
-# CalculadoraSomaBasicaAngular
+# Calculadora de Soma Básica
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.19.
+Esta é uma aplicação de calculadora desenvolvida para consolidar os fundamentos do **Angular 19**. O foco do projeto foi aplicar na prática conceitos de componentização, vinculação de dados (Data Binding) e integração com o **Bootstrap 5**.
 
-## Development server
+## Demonstração
 
-To start a local development server, run:
+Para demonstrar o funcionamento da calculadora (interação entre os inputs, o evento de clique e a exibição do resultado), veja o fluxo abaixo:
 
-```bash
-ng serve
-```
+<p align="center">
+  <img src="assets/demonstracao-calculadora.gif" alt="Demonstração da Calculadora" width="500">
+</p>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Tecnologias e Ferramentas
 
-## Code scaffolding
+* **Angular 19**: Desenvolvimento utilizando o padrão de *Standalone Components*.
+* **Bootstrap 5**: Estilização global e layout responsivo aplicados via `angular.json`.
+* **TypeScript**: Implementação da lógica de negócio e tipagem de dados.
+* **SCSS**: Utilização de pré-processador para gerenciamento de estilos.
+* **Git & Conventional Commits**: Padronização de mensagens de commit para um histórico profissional.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## Conceitos Praticados
 
-```bash
-ng generate component component-name
-```
+* **Standalone Components**: Componentes autônomos sem a necessidade de `module.ts`.
+* **Two-Way Data Binding (`[(ngModel)]`)**: Sincronização entre HTML e TypeScript.
+* **Event Binding**: Captura de eventos de submissão de formulário via `(ngSubmit)`.
+* **Interpolação**: Exibição dinâmica de dados através de `{{ }}`.
+* **Nova Sintaxe de Controle**: Uso do `@if` do Angular 19 para exibição condicional do resultado.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## Como rodar o projeto localmente
 
-```bash
-ng generate --help
-```
+Para executar este projeto em sua máquina, você precisará ter o [Node.js](https://nodejs.org/) e o [Angular CLI](https://angular.io/cli) instalados.
 
-## Building
+1.  **Clone este repositório**:
+ 
+    ```bash
+    git clone [https://github.com/josecampelo/calculadora-soma-basica-angular.git](https://github.com/josecampelo/calculadora-soma-basica-angular.git)
+    ```
+2.  **Acesse a pasta do projeto**:
 
-To build the project run:
+    ```bash
+    cd calculadora-soma-basica-angular
+    ```
+3.  **Instale as dependências (incluindo o Bootstrap)**:
 
-```bash
-ng build
-```
+    ```bash
+    npm install
+    ```
+4.  **Inicie o servidor de desenvolvimento**:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+    ```bash
+    ng serve
+    ```
+5.  Abra o seu navegador no endereço: `http://localhost:4200/`.
